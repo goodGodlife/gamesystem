@@ -3,6 +3,7 @@ from accout.api import *
 from game.api import *
 from report.api import *
 from usdt.api import *
+from admin.api import *
 app = Flask(__name__)
 app.register_blueprint(accout)
 app.register_blueprint(gameapi)
