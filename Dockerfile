@@ -1,4 +1,4 @@
-FROM python:3.6.15-alpine
+FROM python:3.10-alpine
 RUN pip install -U pip
 RUN pip config set global.index-url http://mirrors.aliyun.com/pypi/simple
 RUN pip config set install.trusted-host mirrors.aliyun.com
