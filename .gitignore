@@ -4,3 +4,4 @@ Scripts
 .idea
 test*.py
 /pyvenv.cfg
+__pycache__
