@@ -6,9 +6,9 @@ RUN sed -i 's@dl-cdn.alpinelinux.org@mirrors.aliyun.com@g' /etc/apk/repositories
 
 RUN apk --no-cache add python3-dev build-base linux-headers pcre-dev
 ADD ./ /app/
-RUN pip install --no-cache-dir -r require.txt
 
 WORKDIR /app/
+RUN pip install --no-cache-dir -r require.txt
 
 
 EXPOSE 5000
